@@ -1,0 +1,14 @@
+
+## **📊 Summary of Dataset Understanding**
+
+* The dataset contains **credit card client information** including demographics (SEX, EDUCATION, MARRIAGE, AGE), credit limit, repayment history (PAY\_1 … PAY\_6), bill statements, and payment amounts.
+* The target variable (`default_next_month`) is **imbalanced** — most clients do **not default**, but a smaller portion defaults.
+* **Repayment history (`PAY_1` to `PAY_6`)** is the **strongest predictor** of default:
+
+  * Clients who delay or miss payments in earlier months are far more likely to default next month.
+* **Credit limit (`LIMIT_BAL`)** and **bill amounts (`BILL_AMT1` … `BILL_AMT6`)** show moderate correlation with repayment behavior.
+* **Payment amounts (`PAY_AMT1` … `PAY_AMT6`)** also influence risk, but their predictive power is lower compared to repayment history.
+* **Demographic features (SEX, EDUCATION, MARRIAGE, AGE)** affect default rates slightly, but are not strong predictors on their own.
+
+
+

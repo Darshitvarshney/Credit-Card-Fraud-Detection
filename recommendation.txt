@@ -1,0 +1,11 @@
+## **✅ Recommendations for End Users (Financial Institution / Bank)**
+
+1. **Focus on repayment history** → Customers with a history of delayed or missed payments are at **highest risk of default**.
+2. **Use the ML model for risk scoring** → The trained Gradient Boosting / XGBoost model can help automatically flag risky clients with higher accuracy.
+3. **Adjust decision threshold** → Instead of maximizing accuracy, tune the threshold for **higher recall or ROC-AUC** to reduce missed defaults (false negatives).
+4. **Customer segmentation** → Combine demographic info with repayment patterns to create risk profiles (e.g., high-limit clients with poor repayment history are very high risk).
+5. **Proactive measures**:
+
+   * Provide reminders or early intervention for clients showing repayment delays.
+   * Offer adjusted credit limits for high-risk profiles.
+   * Design financial products that consider repayment patterns as eligibility criteria.

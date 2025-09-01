@@ -1,0 +1,7 @@
+=== Credit Card Default Dataset: EDA Summary ===
+
+1. Target variable is imbalanced (more non-defaults).
+2. Repayment history (PAY_1 … PAY_6) shows strong link with default.
+3. EDUCATION and MARRIAGE categories had invalid values; fixed.
+4. Bill amounts and payment amounts are correlated with default risk.
+5. Demographics (SEX, AGE) show weaker influence.

@@ -102,10 +102,7 @@ preprocess = ColumnTransformer(transformers=[
     ("cat", "passthrough", categorical)
 ], remainder='drop')
 
-# Import extra models
 
-from imblearn.over_sampling import SMOTE
-from imblearn.pipeline import Pipeline as ImbPipeline
 
 # Ratio for imbalance (non-default / default)
 ratio = y_train.value_counts()[0] / y_train.value_counts()[1]
@@ -189,5 +186,6 @@ print("GradientBoosting model saved, as its returned best overall performance.")
 cat_model = models["GradientBoosting"]
 cat_model.fit(X_train, y_train)   # make sure it's trained
 joblib.dump(cat_model, "CatBoost_pipeline.pkl")
+
 
 print("CatBoost model saved, as its Best for Detecting Defaults")

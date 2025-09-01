@@ -1,6 +1,10 @@
 catboost==1.2.8
+imbalanced_learn==0.14.0
+imblearn==0.0
 joblib==1.4.2
 lightgbm==4.6.0
+matplotlib==3.8.2
 pandas==2.3.2
 scikit_learn==1.7.1
+seaborn==0.13.2
 xgboost==3.0.4
